@@ -9,7 +9,7 @@ function Body() {
                         Hi, I'm Afsar, a Gamer and a Front End Developer skilled in building responsive and interactive web applications using modern technologies like React, JavaScript, and CSS. I enjoy turning ideas into user-friendly digital
                     </p>
                 </div>
-                <img src="/Coder.png" alt="FrontEndDeveloper" />
+                <img src="/assets/Coder.png" alt="FrontEndDeveloper" />
             </section>
             <section className="skills">
                 <div className="techSkills">
