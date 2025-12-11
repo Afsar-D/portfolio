@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bonheur+Royale&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bonheur+Royale&family=Goldman:wght@400;700&family=Pirata+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(183deg, rgb(0, 0, 0) 0%, rgba(47, 0, 135, 1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+/* -----Header Part----- */
+
+nav {
+    position: sticky;
+    top: 0;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 250, 0.453);
+    z-index: 9999;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+nav ul li:hover {
+    transform: scale(1.04);
+    transition: all 200ms ease-in-out;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+nav ul li,
+nav ul li a {
+    font-size: 1.5rem;
+    color: black;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ------------ */
+
+/* -----Main Part----- */
+/* Intro section */
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.intro .introText h2 {
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.intro .introText p {
+    font-size: 1rem;
+    color: rgb(176, 176, 176)
+}
+
+/* Skills Section */
+.skills h2 {
+    font-family: "Goldman", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    cursor: default;
+}
+
+.skills ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.skills ul li {
+    position: relative;
+}
+
+.skills ul li img {
+    height: 120px;
+    margin-bottom: 30px
+}
+
+.skills ul li span {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    bottom: -5%;
+    right: 50%;
+    font-size: 15px;
+    transform: translateX(50%);
+    background-color: rgba(238, 238, 238, 0.776);
+    color: black;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+    visibility: hidden;
+    transition: all 200ms ease-in-out;
+    margin-top: 10px;
+}
+
+.skills ul li:hover img {
+    transform: scale(1.1);
+    transition: all 200ms ease-in;
+}
+
+.skills ul li:hover span {
+    visibility: visible;
+}
+
+.techSkills,
+.tools {
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+/* Certificates section */
+.certifications {
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.certifications ul {
+    list-style: none;
+    overflow: visible;
+    position: relative;
+}
+
+.certificates {
+    background-color: rgba(38, 17, 143, 0.765);
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 11px 11px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 500ms ease-in-out;
+    will-change: transform;
+    position: relative;
+}
+
+.certificates:hover {
+    transform: scale(1.1);
+}
+
+.certificates .title img {
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.certifications h2 {
+    font-family: "Goldman", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    cursor: default;
+}
+
+.certificates .title {
+    transition: all 200ms ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease-in;
+
+}
+
+.certificates .title h5 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.certificates p {
+    font-size: 0.7rem;
+    color: rgb(166, 166, 166);
+    opacity: 0;
+    /* display: none; */
+    transition: all 200ms ease-in;
+}
+
+.certificates:hover p {
+    opacity: 1;
+}
+
+.capsule {
+    margin: 10px 0;
+    padding: 7px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+}
+
+.capsule:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: all 200ms ease-in-out;
+}
+
+.capsule a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    height: inherit;
+}
+
+.capsule svg {
+    height: inherit;
+}
+
+/* ----------- */
+
+/* -----Footer Part----- */
+
+#footer {
+    height: 15vh;
+    padding: 20px 40px;
+    background-color: black;
+
+}
+
+#footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#footer ul li a img {
+    height: 50px;
+    transition: all 200ms ease-in-out;
+
+}
+
+#footer ul li a img:hover {
+    transform: scale(1.1rem);
+
+}
+
+.footer ul li:hover img {
+    transform: scale(1.2);
+    transition: all 200ms ease-in;
+
+}
+
+#footer ul li {
+    position: relative;
+
+}
+
+#footer ul li span {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    bottom: -50%;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: rgba(238, 238, 238, 0.776);
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+    visibility: hidden;
+    transition: all 200ms ease-in-out;
+    margin-top: 10px;
+}
+
+#footer ul li:hover span {
+    visibility: visible;
+    transition: all 200ms ease-in;
+
+}
+
+.copyRights {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(57, 57, 57);
+}
+
+
+/* --------------- */
