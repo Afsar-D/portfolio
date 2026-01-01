@@ -333,10 +333,15 @@ nav ul a {
     }
 
     .intro {
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
         justify-content: center;
         align-items: center;
 
+    }
+    .intro img{
+        width: 60vw;
     }
 
     .intro .introText h2,.skills h2,.certifications h2 {
@@ -352,10 +357,10 @@ nav ul a {
     }
 
     .skills ul li img {
-        height: 17vh;
+        height: 15vh;
     }
 
-    h2{
-        font-size: 1.5px;
+    .certificates p{
+        display: none;
     }
 }
