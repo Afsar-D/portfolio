@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bonheur+Royale&family=Pirata+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bonheur+Royale&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bonheur+Royale&family=Goldman:wght@400;700&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Orbitron:wght@400..900&display=swap');
+
 
 * {
     margin: 0;
@@ -52,6 +52,7 @@ nav ul li:hover {
     transition: all 200ms ease-in-out;
     color: rgb(255, 255, 255);
 }
+
 nav ul li a:hover {
     color: rgb(255, 255, 255);
 }
@@ -204,7 +205,7 @@ nav ul a {
 
 .certificates .title h5 {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .certificates p {
@@ -241,6 +242,7 @@ nav ul a {
 .capsule a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    font-size: 0.8rem;
     height: inherit;
 }
 
@@ -323,3 +325,37 @@ nav ul a {
 
 
 /* --------------- */
+
+/* -----Media Queries----- */
+@media (max-width: 768px) {
+    .container {
+        width: 90vw;
+    }
+
+    .intro {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .intro .introText h2,.skills h2,.certifications h2 {
+        font-size: 1.5rem;
+    }
+
+    .skills ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .skills ul li img {
+        height: 17vh;
+    }
+
+    h2{
+        font-size: 1.5px;
+    }
+}

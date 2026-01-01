@@ -79,7 +79,7 @@ function Body() {
                             <h5>AWS Academy Graduate - AWS Academy Cloud Foundations</h5>
                         </div>
                         <p> Successfully completed the AWS Academy Cloud Foundations course, gaining essential knowledge of cloud computing concepts, AWS core services, security, architecture, pricing, and support.</p>
-                        <div className="capsule"><a href="https://www.udemy.com/certificate/UC-18067557-e51b-4061-be61-690d59b0445b/" target="_blank">Show credentials </a>
+                        <div className="capsule"><a href="https://www.credly.com/go/FtOtcw41" target="_blank">Show credentials </a>
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" /></svg></div>
                     </li>
                     <li className="certificates">
@@ -88,7 +88,7 @@ function Body() {
                             <h5>AWS Academy Graduate - AWS Academy Data Engineering</h5>
                         </div>
                         <p>  Successfully completed the AWS Academy Data Engineering course, gaining essential knowledge in data engineering concepts, AWS data services, data pipelines, analytics, and best practices for managing and processing data in the cloud.</p>
-                        <div className="capsule"><a href="https://www.udemy.com/certificate/UC-18067557-e51b-4061-be61-690d59b0445b/" target="_blank">Show credentials </a>
+                        <div className="capsule"><a href="https://www.credly.com/go/dhes7w6j" target="_blank">Show credentials </a>
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" /></svg></div>
                     </li>
                 </ul>
