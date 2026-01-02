@@ -7,6 +7,7 @@ function Body() {
                     <h2>Front End Developer</h2>
                     <p>
                         Hi, I'm Afsar, a Gamer and a Front End Developer skilled in building responsive and interactive web applications using modern technologies like React, JavaScript, and CSS. I enjoy turning ideas into user-friendly digital
+                     experiences.
                     </p>
                 </div>
                 <img src="/Coder.png" alt="FrontEndDeveloper" />
