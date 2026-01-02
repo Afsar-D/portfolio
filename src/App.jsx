@@ -12,7 +12,7 @@ function App() {
     // Simulate loading time - adjust the duration as needed
     const timer = setTimeout(() => {
       setIsLoading(false)
-    }, 2000) // 2 seconds
+    }, 5000) // 5 seconds
 
     return () => clearTimeout(timer)
   }, [])
