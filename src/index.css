@@ -358,6 +358,9 @@ nav ul a {
         align-items: center;
 
     }
+    .intro .introText p {
+        font-size: 0.7rem;
+    }
 
     .intro img {
         width: 60vw;
@@ -378,7 +381,7 @@ nav ul a {
     }
 
     .skills ul li img {
-        height: 15vh;
+        height: 12vh;
     }
 
     .tools ul {
@@ -414,5 +417,9 @@ nav ul a {
 
     .certificates p {
         display: none;
+    }
+
+    .certificates .title h5 {
+        font-size: 0.7rem;
     }
 }
