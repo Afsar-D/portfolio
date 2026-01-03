@@ -4,18 +4,37 @@ import Header from "./Header.jsx"
 import Body from "./Body.jsx"
 import Footer from "./Footer.jsx"
 import Loader from "./Loader.jsx"
+import useImagePreloader from "./useImagePreloader.jsx"
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true)
+  // List of critical images to preload
+  const criticalImages = [
+    "/Coder.png", // Hero image
+    "/c.png",
+    "/py.png",
+    "/html.png",
+    "/css.png",
+    "/js.png",
+    "/React.png",
+    "/git.png",
+    "/vs.png",
+    "/vite.png",
+    "/Udemy.png",
+    "/aws.jpg"
+  ];
+
+  const imagesLoaded = useImagePreloader(criticalImages);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading time - adjust the duration as needed
-    const timer = setTimeout(() => {
-      setIsLoading(false)
-    }, 5000) // 5 seconds
-
-    return () => clearTimeout(timer)
-  }, [])
+    if (imagesLoaded) {
+      // Small delay to ensure smooth transition
+      const timer = setTimeout(() => {
+        setIsLoading(false);
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [imagesLoaded]);
 
   return (
     <>

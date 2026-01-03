@@ -10,34 +10,34 @@ function Body() {
                      experiences.
                     </p>
                 </div>
-                <img src="/Coder.png" alt="FrontEndDeveloper" />
+                <img src="/Coder.png" alt="FrontEndDeveloper" loading="lazy" />
             </section>
             <section className="skills">
                 <div className="techSkills">
                     <h2>Technical Skills</h2>
                     <ul>
                         <li className="skill-item">
-                            <img src="/c.png" alt="C Language" />
+                            <img src="/c.png" alt="C Language" loading="lazy" />
                             <span>C</span>
                         </li>
                         <li className="skill-item">
-                            <img src="/py.png" alt="Python" />
+                            <img src="/py.png" alt="Python" loading="lazy" />
                             <span>Python</span>
                         </li>
                         <li className="skill-item">
-                            <img src="/html.png" alt="HTML" />
+                            <img src="/html.png" alt="HTML" loading="lazy" />
                             <span>HTML</span>
                         </li>
                         <li className="skill-item">
-                            <img src="/css.png" alt="CSS" />
+                            <img src="/css.png" alt="CSS" loading="lazy" />
                             <span>CSS</span>
                         </li>
                         <li className="skill-item">
-                            <img src="/js.png" alt="JavaScript" />
+                            <img src="/js.png" alt="JavaScript" loading="lazy" />
                             <span>JavaScript</span>
                         </li>
                         <li className="skill-item">
-                            <img src="/React.png" alt="React" />
+                            <img src="/React.png" alt="React" loading="lazy" />
                             <span>React</span>
                         </li>
                     </ul>
@@ -46,15 +46,15 @@ function Body() {
                     <h2>Tools</h2>
                     <ul>
                         <li className="skill-item">
-                            <img src="/git.png" alt="GitHub" />
+                            <img src="/git.png" alt="GitHub" loading="lazy" />
                             <span>GitHub</span>
                         </li>
                         <li className="skill-item">
-                            <img src="/vs.png" alt="VisualStudioCode" />
+                            <img src="/vs.png" alt="VisualStudioCode" loading="lazy" />
                             <span>VS Code</span>
                         </li>
                         <li className="skill-item">
-                            <img src="/vite.png" alt="Vite" />
+                            <img src="/vite.png" alt="Vite" loading="lazy" />
                             <span>Vite</span>
                         </li>
                     </ul>
@@ -65,7 +65,7 @@ function Body() {
                 <ul>
                     <li className="certificates">
                         <div className="title">
-                            <img src="/Udemy.png" alt="Udemy" />
+                            <img src="/Udemy.png" alt="Udemy" loading="lazy" />
                             <h5>Introduction To Programming using JavaScript</h5>
                         </div>
                         <p>
@@ -76,7 +76,7 @@ function Body() {
                     </li>
                     <li className="certificates">
                         <div className="title">
-                            <img src="/aws.jpg" alt="AmazonWebServies" />
+                            <img src="/aws.jpg" alt="AmazonWebServies" loading="lazy" />
                             <h5>AWS Academy Graduate - AWS Academy Cloud Foundations</h5>
                         </div>
                         <p> Successfully completed the AWS Academy Cloud Foundations course, gaining essential knowledge of cloud computing concepts, AWS core services, security, architecture, pricing, and support.</p>
@@ -85,7 +85,7 @@ function Body() {
                     </li>
                     <li className="certificates">
                         <div className="title">
-                            <img src="/aws.jpg" alt="AmazonWebServies" />
+                            <img src="/aws.jpg" alt="AmazonWebServies" loading="lazy" />
                             <h5>AWS Academy Graduate - AWS Academy Data Engineering</h5>
                         </div>
                         <p>  Successfully completed the AWS Academy Data Engineering course, gaining essential knowledge in data engineering concepts, AWS data services, data pipelines, analytics, and best practices for managing and processing data in the cloud.</p>
