@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 
 .loader-container {
-    font-family: 'Bruno Ace', "Goldman", cursive, sans-serif;
+    font-family: 'Bruno Ace', "Goldman", "Bebas Neue", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;

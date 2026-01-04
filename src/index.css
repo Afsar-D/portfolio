@@ -43,7 +43,7 @@ img[loading="lazy"] {
 
 nav {
     position: sticky;
-    top: 0;
+    top: 6px;
     margin-top: 25px;
     padding: 10px 20px;
     border-radius: 10px;
