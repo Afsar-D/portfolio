@@ -60,6 +60,51 @@ function Body() {
                     </ul>
                 </div>
             </section>
+            <section className="projects">
+                <h2>Projects</h2>
+                <div className="projectGrid">
+                    <article className="projectCard">
+                        <h4>Portfolio Website</h4>
+                        <p>A responsive personal portfolio built with React and Vite, focused on smooth interactions and clean section-based navigation.</p>
+                        <div className="projectTags">
+                            <span>React</span>
+                            <span>Vite</span>
+                            <span>CSS</span>
+                        </div>
+                        <div className="projectLinks">
+                            <a href="https://github.com/Afsar-D/portfolio" target="_blank" rel="noreferrer">View Source</a>
+                            <a href="https://myportfolio.afsar.codes/" target="_blank" rel="noreferrer">Live Site</a>
+                        </div>
+                    </article>
+                    <article className="projectCard">
+                        <h4>Liquids Library</h4>
+                        <p>A modern library-style web app deployed on Vercel with Supabase PostgreSQL for data storage, delivering responsive browsing and reliable backend support.</p>
+                        <div className="projectTags">
+                            <span>React</span>
+                            <span>Vercel</span>
+                            <span>Supabase</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div className="projectLinks">
+                            <a href="https://github.com/Afsar-D/drinks-stall" target="_blank" rel="noreferrer">View Source</a>
+                            <a href="https://liquids-library.vercel.app/" target="_blank" rel="noreferrer">Live Site</a>
+                        </div>
+                    </article>
+                    <article className="projectCard">
+                        <h4>Expense Tracker</h4>
+                        <p>An expense tracking app for recording transactions, organizing spending, and reviewing money flow with a clean and simple interface.</p>
+                        <div className="projectTags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                        <div className="projectLinks">
+                            <a href="https://github.com/Afsar-D/expense-tracker" target="_blank" rel="noreferrer">View Source</a>
+                            <a href="https://afsar-d.github.io/expense-tracker" target="_blank" rel="noreferrer">Live Site</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
             <section className="certifications">
                 <h2>Certifications</h2>
                 <ul>

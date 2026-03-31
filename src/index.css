@@ -184,9 +184,93 @@ nav ul a {
     box-sizing: border-box;
 }
 
+/* Projects section */
+.projects {
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.projects h2 {
+    font-family: "Goldman", sans-serif;
+    text-align: center;
+    font-size: 1.9rem;
+    padding-bottom: 16px;
+    cursor: default;
+}
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+}
+
+.projectCard {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    padding: 14px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+    transition: transform 250ms ease-in-out, box-shadow 250ms ease-in-out;
+}
+
+.projectCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.3);
+}
+
+.projectCard h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.projectCard p {
+    font-size: 0.82rem;
+    color: rgb(214, 214, 214);
+    line-height: 1.4;
+}
+
+.projectTags {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.projectTags span {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    padding: 2px 8px;
+    font-size: 0.68rem;
+}
+
+.projectCard a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    background: rgba(38, 17, 143, 0.85);
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: all 200ms ease-in-out;
+}
+
+.projectLinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.projectCard a:hover {
+    background: white;
+    color: black;
+}
+
 /* Certificates section */
 .certifications {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     box-sizing: border-box;
     text-align: left;
 }
@@ -195,13 +279,15 @@ nav ul a {
     list-style: none;
     overflow: visible;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .certificates {
     background-color: rgba(38, 17, 143, 0.765);
-    padding: 20px 15px;
+    padding: 14px 12px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     box-shadow: 11px 11px 8px rgba(0, 0, 0, 0.2);
     transition: transform 500ms ease-in-out;
     will-change: transform;
@@ -213,17 +299,17 @@ nav ul a {
 }
 
 .certificates .title img {
-    height: 30px;
+    height: 24px;
     background-color: white;
     border-radius: 50%;
-    margin: 5px;
+    margin: 3px;
 }
 
 .certifications h2 {
     font-family: "Goldman", sans-serif;
     text-align: center;
-    font-size: 2rem;
-    padding-bottom: 20px;
+    font-size: 1.75rem;
+    padding-bottom: 12px;
     cursor: default;
 }
 
@@ -232,6 +318,7 @@ nav ul a {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 6px;
     transition: all 200ms ease-in;
 
 }
@@ -242,7 +329,8 @@ nav ul a {
 }
 
 .certificates p {
-    font-size: 0.7rem;
+    font-size: 0.68rem;
+    line-height: 1.35;
     color: rgb(166, 166, 166);
     opacity: 0;
     /* display: none; */
@@ -254,12 +342,12 @@ nav ul a {
 }
 
 .capsule {
-    margin: 10px 0;
-    padding: 7px 12px;
+    margin: 6px 0 0;
+    padding: 5px 9px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     text-align: center;
     border-radius: 10px;
     transition: all 200ms ease-in-out;
@@ -277,10 +365,12 @@ nav ul a {
     color: rgb(0, 0, 0);
     font-size: 0.8rem;
     height: inherit;
+    font-size: 0.82rem;
 }
 
 .capsule svg {
-    height: inherit;
+    height: 18px;
+    width: 18px;
 }
 
 /* ----------- */

@@ -1,12 +1,66 @@
-# React + Vite
+# Afsar Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built with React and Vite.
 
-Currently, two official plugins are available:
+## Live Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Portfolio: https://myportfolio.afsar.codes/
+- GitHub Repository: https://github.com/Afsar-D/portfolio
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Intro section with personal summary
+- Technical skills and tools sections
+- Projects section with source and live links
+- Certifications section
+- Social/contact links in footer
+- Responsive layout with custom styling and hover interactions
+
+## Project Highlights Listed On Site
+
+- Portfolio Website
+	- Source: https://github.com/Afsar-D/portfolio
+	- Live: https://myportfolio.afsar.codes/
+
+- Liquids Library
+	- Source: https://github.com/Afsar-D/drinks-stall
+	- Live: https://liquids-library.vercel.app/
+	- Stack notes: Vercel deployment, Supabase PostgreSQL
+
+- Expense Tracker
+	- Source: https://github.com/Afsar-D/expense-tracker
+	- Live: https://afsar-d.github.io/expense-tracker
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript (ESM)
+- CSS
+- ESLint
+
+## Scripts
+
+- `npm install` - Install dependencies
+- `npm run dev` - Start local development server
+- `npm run build` - Create production build
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
+- `npm run deploy` - Deploy `dist` to GitHub Pages via `gh-pages`
+
+## Local Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## License
+
+This project is personal portfolio code.
